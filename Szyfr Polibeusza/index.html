@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szyfr Polibeusza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="block">
+        <h1>Szyfr Polibeusza</h1>
+    </div>
+
+
+<!-- Szyfrowanie -->
+<div class="block">
+    <h2>Szyfrowanie</h2>
+    <textarea placeholder="Oryginalny tekst" rows="4" cols="50"></textarea>
+    <div>
+        <p>Zaszyfrowany tekst:</p>
+        <div class="output szyfrowanie"></div>
+    </div>
+
+    <!-- Przycisk -->
+    <div class="btn-container">        
+        <button class="btn-szyfrowanie button">Szyfruj</button>
+    </div>
+</div>
+
+
+
+<!-- Deszyfrowanie -->
+<div class="block">
+    <h2>Deszyfrowanie</h2>
+    <textarea placeholder="Numery zaszyfrowanego tekstu" rows="4" cols="50"></textarea>
+    <div>
+        <p>Wynik:</p>
+        <div class="output deszyfrowanie"></div>
+    </div>
+
+    <!-- Przycisk -->
+    <div class="btn-container">        
+        <button class="btn-deszyfrowanie button">Deszyfruj</button>
+    </div>
+</div>
+
+
+
+<!-- Tabela -->
+<div class="blocktable">
+    <h2>Szyfr</h2>
+    <table id="tabelaszyfru">
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
