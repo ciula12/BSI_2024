@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szyfr Vigenère</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="block">
+        <h1>Szyfr Vigenère</h1>
+    </div>
+
+
+<!-- Szyfrowanie -->
+<div class="block">
+    <h2>Szyfrowanie</h2>
+    <textarea placeholder="Oryginalny tekst" rows="4" cols="50"></textarea>
+
+    <div>
+        <input id="encryption-key" type="text" placeholder="Klucz szyfrujący" />
+    </div>
+
+    <div>
+        <p>Zaszyfrowany tekst:</p>
+        <div class="output szyfrowanie"></div>
+    </div>
+    
+
+    <!-- Przycisk -->
+    <div class="btn-container">        
+        <button class="btn-szyfrowanie button">Szyfruj</button>
+    </div>
+</div>
+
+
+
+<!-- Deszyfrowanie -->
+<div class="block">
+    <h2>Deszyfrowanie</h2>
+    <textarea placeholder="Zaszyfrowany tekst" rows="4" cols="50"></textarea>
+
+    <div>
+        <input id="decryption-key" type="text" placeholder="Klucz szyfrujący" />
+    </div>
+
+
+    <div>
+        <p>Wynik:</p>
+        <div class="output deszyfrowanie"></div>
+    </div>
+
+    <!-- Przycisk -->
+    <div class="btn-container">        
+        <button class="btn-deszyfrowanie button">Deszyfruj</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
