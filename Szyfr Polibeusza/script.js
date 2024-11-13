@@ -69,9 +69,6 @@ function encrypt(text) {
 
 }
 
-
-
-
 // Przycisk szyfrowanie
 document.querySelector('.btn-szyfrowanie').addEventListener('click', function() {
     const originalText = document.querySelector('textarea').value;
